@@ -1,0 +1,161 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+ background-image: url('icons/background.jpg');
+ background-size: cover;
+ /* background-color: rgb(27, 24, 20); */
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.topnavigation{
+   
+
+}
+.navtop{
+    display: flex;
+    cursor: pointer;
+    margin-left: 820px;
+
+}
+.Gmail{
+    color: aliceblue;
+    margin-left: 500px;
+    margin-top: 8px;
+    
+
+}
+.Image{
+    color: aliceblue;
+    margin-left: 8px;
+     margin-top: 8px;
+
+}
+.searchlabs{
+    height:25px;
+    width: 25px;
+    margin-left: 10px;
+    margin-top: 3px;
+    border-radius: 10px;
+
+}
+.menu{
+
+    height:25px;
+    width: 25px;
+    border-radius: 10px;
+    margin-left: 10px;
+     margin-top: 3px;
+
+}
+.menu:hover{
+    background-color:rgb(87, 67, 67) ;
+   
+
+}
+.searchlabs:hover{
+    background-color:rgb(87, 67, 67) ;
+}
+.profile{
+height: 30px;
+width: 30px;
+background-color: violet;
+margin-left: 2px;
+border-radius: 20px;
+margin-left: 10px;
+margin-top: 1px;
+}
+.msg{
+    margin-left: 10px;
+    margin-top: 6px;
+    color: white;
+}
+
+.google-main-page {
+    width: 100%;
+    padding: 20px;
+   
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    transform: translateY(30px);
+    
+}
+
+.google-icon {
+    height: 40vh;
+    max-height: 250px;
+    width: auto;
+    
+    /* height: 250px; */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid #ccc;
+    background-color: rgb(241, 239, 237);
+    border-radius: 20px;
+    margin: 10px auto;
+    width: 90%;
+    max-width: 700px;
+    height: 45px;
+    padding: 0 15px;
+    margin-bottom: 300px;
+  
+}
+
+.search-icon,
+.voice-icon,
+.maps-icon {
+    height: 25px;
+    cursor: pointer;
+}
+
+.google-search {
+    flex: 1;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.google-search:focus {
+    outline: none;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .google-icon {
+        height: 15vh;
+    }
+
+    .search-bar {
+        width: 95%;
+        height: 40px;
+    }
+
+    .google-search {
+        font-size: 14px;
+    }
+
+    .search-icon,
+    .voice-icon,
+    .maps-icon {
+        height: 20px;
+    }
+}
